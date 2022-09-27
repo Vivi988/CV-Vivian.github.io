@@ -29,6 +29,11 @@ header {
     margin-right: auto;
 }
 #ul {
-    border: 1px solid ;
+   
     display: inline-block;
+}
+
+#page{
+    display: flex ;
+    justify-content: space-evenly ;
 }
