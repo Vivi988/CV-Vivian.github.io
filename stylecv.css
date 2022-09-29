@@ -4,6 +4,8 @@ body {
     margin: 3%;
 }
 
+/*Titres des rubriques*/
+
 h2 {
     font-size:200%;
     font-family: monospace;
@@ -27,8 +29,7 @@ h2 {
     text-align: left;
     margin-bottom: 18px;
     margin-top: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 }
 
 #num {
@@ -73,13 +74,7 @@ li {
     border-left: 2px double grey;
 }
 
-#lm {
-    font-size: 55px;
-    text-align: center;
-    margin-bottom: 18px;
-    margin-top: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+/*lien Lettre de motivation*/
 
 #mlm {
     color: black;
@@ -88,22 +83,34 @@ li {
 
 /*Lettre de motivation */
 
+#lm {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #lmot {
     margin-top: 10px;
+    font-size: 130%;
 }
 
 #hmot {
     margin-right: 10px;
     margin-left: 5px;
 }
+
 #signature {
     text-align: right;
     margin-top: 50px;
 }
+
 #retourcv {
     color: black;
     padding-bottom: 5px;
-}
+} 
+
 /* Flex  ?*/
 
 #page{
