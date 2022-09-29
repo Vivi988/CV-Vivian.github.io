@@ -81,13 +81,26 @@ li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#mlm {
+    color: black;
+    padding-bottom: 5px;
+}
+
+/*Lettre de motivation */
+
 #lmot {
     margin-top: 10px;
 }
 
+#hmot {
+    margin-right: 10px;
+    margin-left: 5px;
+}
 #signature {
     text-align: right;
+    margin-top: 50px;
 }
+
 /* Flex  ?*/
 
 #page{
